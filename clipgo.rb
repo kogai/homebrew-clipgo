@@ -1,6 +1,6 @@
 require 'formula'
 
-TOOL_VERSION = '0.1.0'
+TOOL_VERSION = '0.1.1'
 
 class Clipgo < Formula
   if Hardware.is_64_bit?
