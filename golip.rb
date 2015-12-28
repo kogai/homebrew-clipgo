@@ -1,15 +1,15 @@
 require 'formula'
 
-TOOL_VERSION = '0.1.2'
+TOOL_VERSION = '0.1.3'
 
 class Golip < Formula
   if Hardware.is_64_bit?
     url "https://github.com/kogai/golip/releases/download/v#{TOOL_VERSION}/golip_#{TOOL_VERSION}_darwin_amd64.zip"
-    sha1 "96a740cc5025fe53dde603055c774a1d6a2230d7"
+    sha1 "0d22f77af72d40b1c79f53fae84df7bbae4f73c2"
     version "v#{TOOL_VERSION}"
   else
     url "https://github.com/kogai/golip/releases/download/v#{TOOL_VERSION}/golip_#{TOOL_VERSION}_darwin_386.zip"
-    sha1 "3226bdbcaf982e03d88f881878a1076d6ffbe423"
+    sha1 "0d22f77af72d40b1c79f53fae84df7bbae4f73c2"
     version "v#{TOOL_VERSION}"
   end
 
